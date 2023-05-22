@@ -1,0 +1,68 @@
+{
+    "name": "vm-port",
+    "id": "/subscriptions/ce511dce-87ad-4241-b0a8-9b636d2dfeb1/resourceGroups/vm-port_group/providers/Microsoft.Compute/virtualMachines/vm-port",
+    "type": "Microsoft.Compute/virtualMachines",
+    "location": "eastus",
+    "properties": {
+        "vmId": "f5a38b63-bb1e-4117-9499-b6bea6f0664d",
+        "hardwareProfile": {
+            "vmSize": "Standard_B1s"
+        },
+        "storageProfile": {
+            "imageReference": {
+                "publisher": "canonical",
+                "offer": "0001-com-ubuntu-server-focal",
+                "sku": "20_04-lts-gen2",
+                "version": "latest",
+                "exactVersion": "20.04.202305150"
+            },
+            "osDisk": {
+                "osType": "Linux",
+                "name": "vm-port_OsDisk_1_e8711afc7b514fbcbf13da92413fd8f4",
+                "createOption": "FromImage",
+                "caching": "ReadWrite",
+                "managedDisk": {
+                    "storageAccountType": "Premium_LRS",
+                    "id": "/subscriptions/ce511dce-87ad-4241-b0a8-9b636d2dfeb1/resourceGroups/vm-port_group/providers/Microsoft.Compute/disks/vm-port_OsDisk_1_e8711afc7b514fbcbf13da92413fd8f4"
+                },
+                "deleteOption": "Delete",
+                "diskSizeGB": 30
+            },
+            "dataDisks": []
+        },
+        "osProfile": {
+            "computerName": "vm-port",
+            "adminUsername": "azureuserrabia",
+            "linuxConfiguration": {
+                "disablePasswordAuthentication": false,
+                "provisionVMAgent": true,
+                "patchSettings": {
+                    "patchMode": "ImageDefault",
+                    "assessmentMode": "ImageDefault"
+                }
+            },
+            "secrets": [],
+            "allowExtensionOperations": true,
+            "requireGuestProvisionSignal": true
+        },
+        "networkProfile": {
+            "networkInterfaces": [
+                {
+                    "id": "/subscriptions/ce511dce-87ad-4241-b0a8-9b636d2dfeb1/resourceGroups/vm-port_group/providers/Microsoft.Network/networkInterfaces/vm-port339_z1",
+                    "properties": {
+                        "deleteOption": "Detach"
+                    }
+                }
+            ]
+        },
+        "diagnosticsProfile": {
+            "bootDiagnostics": {
+                "enabled": true
+            }
+        },
+        "provisioningState": "Succeeded"
+    },
+    "zones": [
+        "1"
+    ]
+}
