@@ -1,6 +1,6 @@
 {
     "name": "vm-port",
-    "id": "/subscriptions/ce511dce-87ad-4241-b0a8-9b636d2dfeb1/resourceGroups/vm-port_group/providers/Microsoft.Compute/virtualMachines/vm-port",
+    "id": "/subscriptions/ce511dce-87ad-4241-b0a8-9b6gfdghfhkjgjll36d2dfeb1/resourceGroups/vm-port_group/providers/Microsoft.Compute/virtualMachines/vm-port",
     "type": "Microsoft.Compute/virtualMachines",
     "location": "eastus",
     "properties": {
@@ -23,7 +23,7 @@
                 "caching": "ReadWrite",
                 "managedDisk": {
                     "storageAccountType": "Premium_LRS",
-                    "id": "/subscriptions/ce511dce-87ad-4241-b0a8-9b636d2dfeb1/resourceGroups/vm-port_group/providers/Microsoft.Compute/disks/vm-port_OsDisk_1_e8711afc7b514fbcbf13da92413fd8f4"
+                    "id": "/subscriptions/ce511dce-87ad-4241-b0a8-9bhjhkhökj636d2dfeb1/resourceGroups/vm-port_group/providers/Microsoft.Compute/disks/vm-port_OsDisk_1_e8711afc7b514fbcbf13da92413fd8f4"
                 },
                 "deleteOption": "Delete",
                 "diskSizeGB": 30
@@ -32,7 +32,7 @@
         },
         "osProfile": {
             "computerName": "vm-port",
-            "adminUsername": "azureuserrabia",
+            "adminUsername": "azureuser",
             "linuxConfiguration": {
                 "disablePasswordAuthentication": false,
                 "provisionVMAgent": true,
@@ -48,7 +48,7 @@
         "networkProfile": {
             "networkInterfaces": [
                 {
-                    "id": "/subscriptions/ce511dce-87ad-4241-b0a8-9b636d2dfeb1/resourceGroups/vm-port_group/providers/Microsoft.Network/networkInterfaces/vm-port339_z1",
+                    "id": "/subscriptions/ce511dce-87ad-4241-b0a8-9b6hgcjhghjl36d2dfeb1/resourceGroups/vm-port_group/providers/Microsoft.Network/networkInterfaces/vm-port339_z1",
                     "properties": {
                         "deleteOption": "Detach"
                     }
